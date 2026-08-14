@@ -44,3 +44,5 @@ git remote add origin https://github.com/Lakssiva/git_practise.git
 git push -u origin main
 git push
 
+// remote -> local
+git pull
