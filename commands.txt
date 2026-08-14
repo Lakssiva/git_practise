@@ -26,3 +26,6 @@ git log --oneline
 // changes
 git diff
 
+// discards unstaged changes and go back to last committed work 
+git restore commands.txt
+
