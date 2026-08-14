@@ -11,7 +11,18 @@ git init
 // staging ( like ready to be staged)
 git add commands.txt
 git add .
+git add file1 file2 file3
 
-// commiting ( for saving permanently like a snapshot )
+// commiting ( for saving permanently like a snapshot and commit -> a checkpoint )
 git commit -m "Created a txt file"
+
+// checking
+git status
+
+// commit history
+git log
+git log --oneline
+
+// changes
+git diff
 
