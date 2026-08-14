@@ -32,3 +32,16 @@ git restore commands.txt
 // removes staged file from staging but doesnt delete the content
 git restore --staged commands.txt
 
+// --------------github----------------
+
+// check if local and remote are connected
+git remote -v
+
+// connect remote
+git remote add origin https://github.com/Lakssiva/git_practise.git
+
+// send commits to remote
+git push -u origin main
+git push
+
+
