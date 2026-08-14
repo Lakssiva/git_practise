@@ -29,3 +29,6 @@ git diff
 // discards unstaged changes and go back to last committed work 
 git restore commands.txt
 
+// removes staged file from staging but doesnt delete the content
+git restore --staged commands.txt
+
