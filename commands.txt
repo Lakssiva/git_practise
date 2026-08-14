@@ -1,0 +1,17 @@
+// version check
+git --version
+
+// configuring user name and email
+git config --global user.name "Laks"
+git config --global user.email "kslakshmipriya13@gmail.com"
+
+// file -> repo (for tracking using git)
+git init
+
+// staging ( like ready to be staged)
+git add commands.txt
+git add .
+
+// commiting ( for saving permanently like a snapshot )
+git commit -m "Created a txt file"
+
