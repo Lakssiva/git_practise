@@ -116,6 +116,46 @@ git rebase
 
 // GitHub Actions
 automated CI/CD platform built into GitHub that works using triggers like push, pull..
+        git push
+        ↓
+        GitHub Actions
+        ↓
+        Run tests
+        ↓
+        Build project
+        ↓
+        Deploy
+
+// readme.md .gitignore issues
+
+// fork
+    Online Repository
+            ↓
+        Fork
+            ↓
+    Your GitHub Repository
+
+// clone
+    GitHub
+    ↓
+    git clone
+    ↓
+    Your Laptop
+
+// pull request
+    feature-login
+        ↓
+        push
+        ↓
+    GitHub
+        ↓
+    Pull Request
+        ↓
+    Code Review
+        ↓
+    Merge
+        ↓
+    main
 
 //--------summary---------
 I write code → Git notices changes → I stage selected changes → I commit them into history → I push those commits to GitHub → teammates can pull them → we work with branches → create PR → review → merge into main.
