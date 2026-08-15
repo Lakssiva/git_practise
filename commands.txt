@@ -16,6 +16,9 @@ git add file1 file2 file3
 // commiting ( for saving permanently like a snapshot and commit -> a checkpoint )
 git commit -m "Created a txt file"
 
+// add and commit to tracked files
+git commit -am "added new lines"
+
 // checking
 git status
 
@@ -61,3 +64,15 @@ git diff HEAD origin/main
 fetch = download updates, don't merge
 pull  = fetch + integrate
 
+// ---------branch-----------
+
+// create branch
+git branch sample
+
+// switch to branch
+git switch sample
+git checkout sample
+
+// create and switch
+git switch -c sample
+git checkout -b sample
