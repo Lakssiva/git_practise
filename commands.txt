@@ -46,3 +46,18 @@ git push
 
 // remote -> local
 git pull
+
+// fetch changes or downloads data from remote but it will not be shown in local 
+git fetch
+git fetch origin branch-name
+git fetch --all
+
+// see changes from fetch
+git log HEAD..origin/main
+git log -p HEAD..origin/main
+git diff HEAD origin/main
+
+// fetch and pull
+fetch = download updates, don't merge
+pull  = fetch + integrate
+
