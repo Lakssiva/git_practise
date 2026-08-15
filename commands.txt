@@ -86,3 +86,36 @@ git branch -d login
 // check branches in remote
 git branch -r
 
+// merge branch to master
+git merge sample
+
+// reset (deletes and rewrites history)
+git reset --soft commit-id  // uncommited code safe in stage
+git reset --hard commit-id
+
+// revert (adds new commit and preserves history)
+git revert commit-id
+
+// detached HEAD
+head refers to a commit-id and not a branch so new commits are independent and doesnt belong to any branch
+
+// creates detached head so if u switch branches commits will be lost
+git checkout commit-id 
+
+// select a specific commit from another branch and copy it to current branch
+git cherry-pick commit-id
+
+// keeps unfinished code (no commit has done)
+git stash
+
+// restores changes from stash
+git stash pop
+
+// rebase (keeps history straight with no merge commits it takes the current branch and moves to target branch and then reapplies the current on top of target branch)
+git rebase
+
+// GitHub Actions
+automated CI/CD platform built into GitHub that works using triggers like push, pull..
+
+//--------summary---------
+I write code → Git notices changes → I stage selected changes → I commit them into history → I push those commits to GitHub → teammates can pull them → we work with branches → create PR → review → merge into main.
