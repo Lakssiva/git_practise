@@ -76,3 +76,13 @@ git checkout sample
 // create and switch
 git switch -c sample
 git checkout -b sample
+
+// see branches
+git branch
+
+// delete a branch
+git branch -d login
+
+// check branches in remote
+git branch -r
+
